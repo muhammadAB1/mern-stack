@@ -40,7 +40,7 @@ app.delete('/todo/delete/:id', async (req, res) => {
     }
 });
 
-app.get('/todo/complete/:id', async (req, ) => {
+app.get('/todo/complete/:id', async (req, res) => {
     try {
         const data = await Todo.findById(req.params.id)
         data.complete = !data.complete
