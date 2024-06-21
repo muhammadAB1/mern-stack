@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: block;
+}
+  
+h1 {
+    text-align: left;
+    margin-left: 20px;
+}
+  
+table {
+    margin: 20px;
+    border-collapse: collapse;
+    width: auto; 
+}
+  
+th,td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+  
