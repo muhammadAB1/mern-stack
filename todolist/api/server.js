@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect('mongodb://localhost:27017/todolist')
+mongoose.connect('mongodb+srv://muhammad:Digimon03.@cluster0.dek5f6q.mongodb.net/todolist?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => console.log('connected to DB'))
 .catch(console.error())
 
