@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 function App() {
-  const api = 'https://mern-stack-gray.vercel.app/'
+  const api = 'https://mern-stack-gray.vercel.app'
 
   const [todos, setTodos] = useState([])
   const [popupActive, setPopupActive] = useState('')
